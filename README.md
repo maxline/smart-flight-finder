@@ -7,11 +7,12 @@ With a powerful search engine and extensive customization options, Weekend Seasi
 
 Key Features:
 
-🌊 Seaside Filter – Instantly find destinations with direct access to the beach, sea, or ocean.
-✈️ Weekend-Focused – Search specifically for round-trip weekend flights (e.g., Fri–Sun or Sat–Mon).
-🛫 Departure Flexibility – Choose preferred departure airports or let the app auto-detect your nearest ones.
-💰 Budget Control – Set your price range or filter by the lowest fares available.
-📅 Flexible Dates – Use sliders to adjust trip duration, departure/return time, and avoid holidays.
+🌊 Seaside Filter – Instantly find destinations with direct access to the beach, sea, or ocean.<br>
+✈️ Weekend-Focused – Search specifically for round-trip weekend flights (e.g., Fri–Sun or Sat–Mon).<br>
+🛫 Departure Flexibility – Choose specific departure airports or let the app automatically suggest nearby options.<br>
+💰 Budget Control – Set your price range or filter by the lowest fares available.<br>
+📅 Flexible Dates – Use sliders to adjust trip duration, departure/return time, and avoid holidays.<br>
+🧳 Multi-City Support – Plan a trip from one city and return to another. Perfect for travelers combining work and leisure or exploring different coastal regions in one go.<br>
 
 ⚙️ Advanced Filters – Tweak by airline, baggage policy, non-stop flights, flight duration, destination country, visa requirements, and more.
 Next releases.

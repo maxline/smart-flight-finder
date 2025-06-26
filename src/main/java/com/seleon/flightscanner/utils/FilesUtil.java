@@ -1,12 +1,15 @@
-package com.seleon.flightscanner;
+package com.seleon.flightscanner.utils;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Collections;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-public class FileSaver {
+public class FilesUtil {
     public static final String PATH = "data/";
 
     public static void save(String content, String fileName) {
@@ -19,5 +22,24 @@ public class FileSaver {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static String load(String fileName) {
+        Path path = Paths.get(PATH + fileName);
+
+        Stream<String> lines = null;
+        String data;
+        try {
+            lines = Files.lines(path);
+            data = lines.collect(Collectors.joining("\n"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } finally {
+            if (lines != null) {
+                lines.close();
+            }
+        }
+
+        return data;
     }
 }
