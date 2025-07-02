@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FilesUtil {
-    public static final String PATH = "data/";
+    public static final String PATH = "data/ryanair/";
 
     public static void save(String content, String fileName) {
         try {
@@ -18,7 +18,7 @@ public class FilesUtil {
                     Collections.singletonList(content),
                     StandardOpenOption.CREATE,     // create file if it doesn't exist
                     StandardOpenOption.TRUNCATE_EXISTING);  // overwrite file if it exists
-            System.out.println("String saved to file.");
+            System.out.println("String saved to file: " + PATH + fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -31,7 +31,7 @@ public class FilesUtil {
         String data;
         try {
             lines = Files.lines(path);
-            data = lines.collect(Collectors.joining("\n"));
+            data = lines.collect(Collectors.joining(System.lineSeparator()));
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {

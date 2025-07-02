@@ -1,4 +1,4 @@
-package com.seleon.flightscanner.dto;
+package com.seleon.flightscanner.ryanair.dto;
 
 import lombok.Data;
 

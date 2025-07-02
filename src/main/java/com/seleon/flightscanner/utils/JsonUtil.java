@@ -5,7 +5,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.seleon.flightscanner.dto.Fare;
+import com.seleon.flightscanner.ryanair.dto.Fare;
 
 import java.util.List;
 
