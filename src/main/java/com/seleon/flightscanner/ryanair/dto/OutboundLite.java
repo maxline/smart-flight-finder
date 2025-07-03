@@ -12,4 +12,14 @@ public class OutboundLite {
     private String departureDate;
     private double priceValue;
     private String currencyCode;
+
+    public String toBrief() {
+        return "{" +
+                '\'' + departureAirport +
+                " - " + arrivalIataCode + '\'' +
+                ", " + arrivalCity +
+                ", departure='" + departureDate + '\'' +
+                ", " + priceValue + " " + currencyCode +
+                '}';
+    }
 }

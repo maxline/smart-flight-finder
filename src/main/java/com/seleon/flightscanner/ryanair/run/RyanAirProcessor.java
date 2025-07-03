@@ -54,7 +54,7 @@ public class RyanAirProcessor {
                 .collect(Collectors.toList());
         System.out.println(result);
 
-        List<OutboundLite> outboundLites = flightData.getFares().stream()
+        List<String> outboundLites = flightData.getFares().stream()
                 .map(Fare::getOutbound)
                 .filter(Objects::nonNull)
                 .map(outbound -> new OutboundLite(
@@ -64,6 +64,7 @@ public class RyanAirProcessor {
                         outbound.getDepartureDate(),
                         outbound.getPrice().getValue(),
                         outbound.getPrice().getCurrencyCode()))
+                .map(OutboundLite::toBrief)
                 .collect(Collectors.toList());
 
         System.out.println(JsonUtil.listToNewLineString(outboundLites));
