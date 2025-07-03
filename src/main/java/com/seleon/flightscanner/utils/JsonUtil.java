@@ -8,6 +8,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.seleon.flightscanner.ryanair.dto.Fare;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class JsonUtil {
     public static <T> T jsonToObject(String jsonString, Class<T> clazz) {
@@ -34,6 +35,12 @@ public class JsonUtil {
             throw new RuntimeException(e);
         }
         return fares;
+    }
+
+    public static <T> String listToNewLineString(List<T> list) {
+        return list.stream()
+                .map(Object::toString)
+                .collect(Collectors.joining(System.lineSeparator()));
     }
 
 }

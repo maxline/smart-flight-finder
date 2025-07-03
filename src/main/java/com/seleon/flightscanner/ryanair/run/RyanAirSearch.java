@@ -11,14 +11,14 @@ import java.net.http.HttpResponse;
 
 public class RyanAirSearch {
 
-    private static final String FILE_TO_SAVE = "ryan_air_002.json";
+    private static final String FILE_TO_SAVE = "ryan_air_003.json";
 
     private static final String FARES_URL = String.join("",
             "https://www.ryanair.com/api/farfnd/v4/",
             SearchMode.ONE_WAY_FARES.toString(),
             "?departureAirportIataCode=KRK",
             "&outboundDepartureDateFrom=2025-07-01",
-            "&outboundDepartureDateTo=2025-08-31",
+            "&outboundDepartureDateTo=2025-10-31",
             "&market=en-gb",
             "&adultPaxCount=1",
             "&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY",

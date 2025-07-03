@@ -1,4 +1,6 @@
-package com.seleon.flightscanner;
+package com.seleon.flightscanner.ryanair.example;
+
+import com.seleon.flightscanner.utils.FilesUtil;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -40,12 +42,8 @@ public class HttpUrlConnectionExample {
             in.close();
 
             System.out.println("Ответ от API:");
-
-            if (response != null) {
-                System.out.println(response.toString());
-
-                FileSaver.save(response.toString(), "http_url_con_02.json");
-            }
+            System.out.println(response);
+            FilesUtil.save(response.toString(), "http_url_con_02.json");
 
         } catch (Exception e) {
             e.printStackTrace();
