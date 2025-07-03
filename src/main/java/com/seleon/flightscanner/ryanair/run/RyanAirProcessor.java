@@ -1,13 +1,10 @@
 package com.seleon.flightscanner.ryanair.run;
 
-import com.seleon.flightscanner.ryanair.dto.Airport;
-import com.seleon.flightscanner.ryanair.dto.Fare;
-import com.seleon.flightscanner.ryanair.dto.FlightData;
-import com.seleon.flightscanner.ryanair.dto.Outbound;
-import com.seleon.flightscanner.ryanair.dto.OutboundLite;
+import com.seleon.flightscanner.ryanair.dto.*;
 import com.seleon.flightscanner.utils.FilesUtil;
 import com.seleon.flightscanner.utils.JsonUtil;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -23,16 +20,31 @@ public class RyanAirProcessor {
     public static void main(String[] args) {
         //FileSaver.save("bla-bla-bla11", "bla_bla_txt");
 
+        singleOutboundJsonFromStringExample();
+
+        listOutboundJsonFromFileExample();
+
+        fullFlightDataJsonExample();
+    }
+
+    private static void singleOutboundJsonFromStringExample() {
         Outbound outboundResult = JsonUtil.jsonToObject(OUTBOUND_JSON_SAMPLE, Outbound.class);
         System.out.println("Outbound json parsing test:");
         System.out.println(outboundResult);
+    }
 
+    //todo fix
+    private static void listOutboundJsonFromFileExample() {
         String load = FilesUtil.load(RYAN_AIR_FARES_JSON);
 
         List<Fare> fares = JsonUtil.jsonToList(load);
         System.out.println("Fares json parsing test:");
         System.out.println(fares);
+    }
 
+    //todo refactor this big method to smaller parts
+    private static void fullFlightDataJsonExample() {
+        String load;
         load = FilesUtil.load(RYAN_AIR_FLIGHT_DATA_JSON);
 
         FlightData flightData = JsonUtil.jsonToObject(load, FlightData.class);
@@ -64,10 +76,11 @@ public class RyanAirProcessor {
                         outbound.getDepartureDate(),
                         outbound.getPrice().getValue(),
                         outbound.getPrice().getCurrencyCode()))
+                .sorted(Comparator.comparing(OutboundLite::getDepartureDate))
                 .map(OutboundLite::toBrief)
                 .collect(Collectors.toList());
 
         System.out.println(JsonUtil.listToNewLineString(outboundLites));
-
     }
+
 }

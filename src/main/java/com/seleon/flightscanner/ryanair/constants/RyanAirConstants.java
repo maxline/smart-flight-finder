@@ -1,5 +1,7 @@
 package com.seleon.flightscanner.ryanair.constants;
 
+import java.time.format.DateTimeFormatter;
+
 public class RyanAirConstants {
 
     public static final String RYAN_AIR_ONE_WAY_URL_SAMPLE = String.join("",
@@ -53,5 +55,7 @@ public class RyanAirConstants {
             "        \"previousPrice\": null,\n" +
             "        \"priceUpdated\": 1750919208000\n" +
             "      }";
+
+    public static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("MMM-dd HH:mm");
 
 }

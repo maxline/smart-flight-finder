@@ -1,0 +1,16 @@
+{'KRK - PSR', flyAt='OCT-03 11:30 Fri', 119.0 PLN, Pescara}
+{'KRK - BRI', flyAt='OCT-23 11:20 Thu', 149.5 PLN, Bari}
+{'KRK - CHQ', flyAt='OCT-24 07:00 Fri', 167.0 PLN, Chania}
+{'KRK - CFU', flyAt='OCT-24 12:40 Fri', 137.0 PLN, Corfu}
+{'KRK - ALC', flyAt='OCT-25 12:25 Sat', 167.0 PLN, Alicante}
+{'KRK - VLC', flyAt='OCT-30 07:10 Thu', 197.43 PLN, Valencia}
+{'KRK - OPO', flyAt='OCT-30 07:30 Thu', 183.66 PLN, Porto}
+{'KRK - SKG', flyAt='OCT-30 08:45 Thu', 119.0 PLN, Thessaloniki}
+{'KRK - CTA', flyAt='OCT-30 10:55 Thu', 119.0 PLN, Catania}
+{'KRK - BCN', flyAt='OCT-31 08:15 Fri', 176.67 PLN, Barcelona}
+{'KRK - PMO', flyAt='OCT-31 08:20 Fri', 158.94 PLN, Palermo}
+{'KRK - PFO', flyAt='OCT-31 08:30 Fri', 183.55 PLN, Paphos}
+{'KRK - MLA', flyAt='OCT-31 10:00 Fri', 183.68 PLN, Malta}
+{'KRK - PMI', flyAt='OCT-31 10:05 Fri', 137.0 PLN, Palma}
+{'KRK - AGP', flyAt='OCT-31 11:10 Fri', 240.46 PLN, Malaga}
+{'KRK - FAO', flyAt='OCT-31 12:40 Fri', 169.0 PLN, Faro}

@@ -2,12 +2,14 @@ package com.seleon.flightscanner.ryanair.dto;
 
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 @Data
 public class Outbound {
     private Airport departureAirport;
     private Airport arrivalAirport;
-    private String departureDate; //todo format to local date? if needed
-    private String arrivalDate;
+    private LocalDateTime departureDate;
+    private LocalDateTime arrivalDate;
     private Price price;
     private String flightKey;
     private String flightNumber;
