@@ -9,14 +9,16 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+import static com.seleon.flightscanner.ryanair.constants.RyanAirConstants.AIRPORT_FROM;
+
 public class RyanAirSearch {
 
-    private static final String FILE_TO_SAVE = "ryan_air_003.json";
+    private static final String FILE_TO_SAVE = "ryan_air_" + AIRPORT_FROM +"_002.json";
 
     private static final String FARES_URL = String.join("",
             "https://www.ryanair.com/api/farfnd/v4/",
             SearchMode.ONE_WAY_FARES.toString(),
-            "?departureAirportIataCode=KRK",
+            "?departureAirportIataCode=" + AIRPORT_FROM,
             "&outboundDepartureDateFrom=2025-07-01",
             "&outboundDepartureDateTo=2025-10-31",
             "&market=en-gb",
@@ -40,7 +42,7 @@ public class RyanAirSearch {
                     .send(request, HttpResponse.BodyHandlers.ofString());
 
             if (response != null) {
-                System.out.println("RyanAir fares api call was executed. Response details:");
+                System.out.println("RyanAir fares api from " + AIRPORT_FROM + " call was executed. Response details:");
                 System.out.println(response.body());
                 FilesUtil.save(response.body(), FILE_TO_SAVE);
             }

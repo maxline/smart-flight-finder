@@ -1,5 +1,7 @@
 package com.seleon.flightscanner.ryanair.constants;
 
+import com.seleon.flightscanner.ryanair.enums.IataCode;
+
 import java.time.format.DateTimeFormatter;
 
 public class RyanAirConstants {
@@ -57,5 +59,7 @@ public class RyanAirConstants {
             "      }";
 
     public static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("MMM-dd HH:mm");
+
+    public static IataCode AIRPORT_FROM = IataCode.KRK;
 
 }

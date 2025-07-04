@@ -10,19 +10,18 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+import static com.seleon.flightscanner.ryanair.constants.RyanAirConstants.AIRPORT_FROM;
 import static com.seleon.flightscanner.ryanair.constants.RyanAirConstants.OUTBOUND_JSON_SAMPLE;
 
 public class RyanAirProcessor {
 
     private static final String RYAN_AIR_FARES_JSON = "ryan_air_fares_01.json";
-    private static final String RYAN_AIR_FLIGHT_DATA_JSON = "ryan_air_003.json";
+    private static final String RYAN_AIR_FLIGHT_DATA_JSON = "ryan_air_" + AIRPORT_FROM + "_002.json";
 
     public static void main(String[] args) {
-        //FileSaver.save("bla-bla-bla11", "bla_bla_txt");
-
-        singleOutboundJsonFromStringExample();
-
-        listOutboundJsonFromFileExample();
+//        FileSaver.save("bla-bla-bla11", "bla_bla_txt");
+//        singleOutboundJsonFromStringExample();
+//        listOutboundJsonFromFileExample();
 
         fullFlightDataJsonExample();
     }
@@ -58,7 +57,7 @@ public class RyanAirProcessor {
                 .filter(Objects::nonNull)
                 .collect(Collectors.toList());
 
-        System.out.println("Departure from KRK - list of arrival Airports:");
+        System.out.println("Departure from " + AIRPORT_FROM + " - list of arrival Airports:");
         System.out.println(airports);
 
         List<Map<String, String>> result = airports.stream()
