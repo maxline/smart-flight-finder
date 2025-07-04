@@ -1,8 +1,11 @@
 package com.seleon.flightscanner.ryanair.enums;
 
+import lombok.Getter;
+
+@Getter
 public enum SearchMode {
-    ONE_WAY_FARES("oneWayFares"),
-    ROUND_TRI_FARES("roundTripFares");
+    ONE_WAY("oneWayFares"),
+    ROUND("roundTripFares");
 
     private final String value;
 
@@ -10,8 +13,4 @@ public enum SearchMode {
         this.value = value;
     }
 
-    @Override
-    public String toString() {
-        return value;
-    }
 }

@@ -1,5 +1,8 @@
 package com.seleon.flightscanner.ryanair.enums;
 
+import lombok.Getter;
+
+@Getter
 public enum IataCode {
     // 🇬🇷 Greece (Mainland + Islands)
     AOK("Karpathos"),
@@ -112,10 +115,6 @@ public enum IataCode {
 
     IataCode(String city) {
         this.city = city;
-    }
-
-    public String getCity() {
-        return city;
     }
 
 }

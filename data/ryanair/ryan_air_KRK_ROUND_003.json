@@ -1,0 +1,183 @@
+{
+  "arrivalAirportCategories": null,
+  "fares": [
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Italy",
+          "iataCode": "PSR",
+          "name": "Pescara",
+          "seoName": "pescara",
+          "city": {
+            "name": "Pescara",
+            "code": "PESCARA",
+            "countryCode": "it"
+          }
+        },
+        "departureDate": "2025-07-11T11:30:00",
+        "arrivalDate": "2025-07-11T13:20:00",
+        "price": {
+          "value": 195.99,
+          "valueMainUnit": "195",
+          "valueFractionalUnit": "99",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~3045~ ~~KRK~07/11/2025 11:30~PSR~07/11/2025 13:20~~",
+        "flightNumber": "FR3045",
+        "previousPrice": null,
+        "priceUpdated": 1751611947000
+      },
+      "inbound": {
+        "departureAirport": {
+          "countryName": "Italy",
+          "iataCode": "PSR",
+          "name": "Pescara",
+          "seoName": "pescara",
+          "city": {
+            "name": "Pescara",
+            "code": "PESCARA",
+            "countryCode": "it"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "departureDate": "2025-07-12T19:45:00",
+        "arrivalDate": "2025-07-12T21:35:00",
+        "price": {
+          "value": 237.34,
+          "valueMainUnit": "237",
+          "valueFractionalUnit": "34",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~3046~ ~~PSR~07/12/2025 19:45~KRK~07/12/2025 21:35~~",
+        "flightNumber": "FR3046",
+        "previousPrice": null,
+        "priceUpdated": 1751611913000
+      },
+      "summary": {
+        "price": {
+          "value": 433.33,
+          "valueMainUnit": "433",
+          "valueFractionalUnit": "33",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false,
+        "tripDurationDays": 1
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Italy",
+          "iataCode": "BRI",
+          "name": "Bari",
+          "seoName": "bari",
+          "city": {
+            "name": "Bari",
+            "code": "BARI",
+            "countryCode": "it"
+          }
+        },
+        "departureDate": "2025-07-17T11:20:00",
+        "arrivalDate": "2025-07-17T13:15:00",
+        "price": {
+          "value": 233.54,
+          "valueMainUnit": "233",
+          "valueFractionalUnit": "54",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~2722~ ~~KRK~07/17/2025 11:20~BRI~07/17/2025 13:15~~",
+        "flightNumber": "FR2722",
+        "previousPrice": null,
+        "priceUpdated": 1751622789000
+      },
+      "inbound": {
+        "departureAirport": {
+          "countryName": "Italy",
+          "iataCode": "BRI",
+          "name": "Bari",
+          "seoName": "bari",
+          "city": {
+            "name": "Bari",
+            "code": "BARI",
+            "countryCode": "it"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "departureDate": "2025-07-20T22:35:00",
+        "arrivalDate": "2025-07-21T00:25:00",
+        "price": {
+          "value": 306.22,
+          "valueMainUnit": "306",
+          "valueFractionalUnit": "22",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~2723~ ~~BRI~07/20/2025 22:35~KRK~07/21/2025 00:25~~",
+        "flightNumber": "FR2723",
+        "previousPrice": null,
+        "priceUpdated": 1751625338000
+      },
+      "summary": {
+        "price": {
+          "value": 539.76,
+          "valueMainUnit": "539",
+          "valueFractionalUnit": "76",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false,
+        "tripDurationDays": 4
+      }
+    }
+  ],
+  "nextPage": null,
+  "size": 2
+}
