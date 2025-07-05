@@ -7,4 +7,5 @@ public class Summary {
     private Price price;
     private Price previousPrice;
     private boolean newRoute;
+    private int tripDurationDays;
 }

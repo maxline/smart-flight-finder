@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 import static com.seleon.flightscanner.ryanair.constants.RyanAirConstants.AIRPORT_FROM;
 import static com.seleon.flightscanner.ryanair.service.SampleData.OUTBOUND_JSON_SAMPLE;
 
-class FaresProcessorImplTest {
+public class FaresProcessorImplTest {
     private static final String RYAN_AIR_FARES_JSON = "ryan_air_fares_01.json";
 
     private final FaresProcessorImpl faresProcessor = new FaresProcessorImpl();
@@ -55,14 +55,14 @@ class FaresProcessorImplTest {
     }
 
     @Test
-    void extractOutboundLites() {
+    void extractFareLiteTest() {
         final String ryanAirFlightDataJson = "ryan_air_KRK_ONE_WAY_001.json";
         String flightDataJson = FilesUtil.load("src/test/resources/", ryanAirFlightDataJson);
         //todo remove and create FlightData in SampleData class
         FlightData flightData = JsonUtil.jsonToObject(flightDataJson, FlightData.class);
 
-        List<String> outboundLites = faresProcessor.extractOutboundLites(flightData);
-        System.out.println(JsonUtil.listToNewLineString(outboundLites));
+        List<String> fareLites = faresProcessor.extractFareLites(flightData);
+        System.out.println(JsonUtil.listToNewLineString(fareLites));
     }
 
     @Test

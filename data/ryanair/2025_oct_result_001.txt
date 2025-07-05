@@ -14,3 +14,36 @@
 {'KRK - PMI', flyAt='OCT-31 10:05 Fri', 137.0 PLN, Palma}
 {'KRK - AGP', flyAt='OCT-31 11:10 Fri', 240.46 PLN, Malaga}
 {'KRK - FAO', flyAt='OCT-31 12:40 Fri', 169.0 PLN, Faro}
+
+
+{'KRK - PSR', flyAt='SEP-26 11:30 Fri', 119.0 PLN, Pescara}
+{'KRK - BRI', flyAt='OCT-23 11:20 Thu', 145.23 PLN, Bari}
+{'KRK - CHQ', flyAt='OCT-24 07:00 Fri', 167.0 PLN, Chania}
+{'KRK - CFU', flyAt='OCT-24 12:40 Fri', 223.96 PLN, Corfu}
+{'KRK - VLC', flyAt='OCT-30 07:10 Thu', 197.43 PLN, Valencia}
+{'KRK - OPO', flyAt='OCT-30 07:30 Thu', 187.85 PLN, Porto}
+{'KRK - SKG', flyAt='OCT-30 08:45 Thu', 119.0 PLN, Thessaloniki}
+{'KRK - CTA', flyAt='OCT-30 10:55 Thu', 151.36 PLN, Catania}
+{'KRK - ALC', flyAt='OCT-30 12:15 Thu', 145.0 PLN, Alicante}
+{'KRK - BCN', flyAt='OCT-31 08:15 Fri', 176.67 PLN, Barcelona}
+{'KRK - PMO', flyAt='OCT-31 08:20 Fri', 183.55 PLN, Palermo}
+{'KRK - PFO', flyAt='OCT-31 08:30 Fri', 223.96 PLN, Paphos}
+{'KRK - MLA', flyAt='OCT-31 10:00 Fri', 175.13 PLN, Malta}
+{'KRK - PMI', flyAt='OCT-31 10:05 Fri', 137.0 PLN, Palma}
+{'KRK - AGP', flyAt='OCT-31 11:10 Fri', 240.46 PLN, Malaga}
+{'KRK - TFS', flyAt='OCT-31 11:35 Fri', 286.0 PLN, Tenerife}
+{'KRK - FAO', flyAt='OCT-31 12:40 Fri', 169.0 PLN, Faro}
+
+{'KRK - BRI', flyAt='SEP-04 11:20 Thu', 205.04 PLN, Bari}
+{'KRK - ALC', flyAt='SEP-20 12:25 Sat', 286.58 PLN, Alicante}
+{'KRK - CHQ', flyAt='SEP-26 07:00 Fri', 197.0 PLN, Chania}
+{'KRK - PSR', flyAt='SEP-26 11:30 Fri', 119.0 PLN, Pescara}
+{'KRK - PMI', flyAt='SEP-26 11:40 Fri', 267.57 PLN, Palma}
+{'KRK - CFU', flyAt='SEP-26 12:40 Fri', 281.45 PLN, Corfu}
+
+{'WRO - PSR', flyAt='SEP-05 12:50 Fri', 146.0 PLN, Pescara}
+{'WRO - ALC', flyAt='SEP-19 09:35 Fri', 231.0 PLN, Alicante}
+{'WRO - PFO', flyAt='SEP-25 08:50 Thu', 261.46 PLN, Paphos}
+{'WRO - PMI', flyAt='SEP-25 09:20 Thu', 293.2 PLN, Palma}
+{'WRO - PMO', flyAt='SEP-25 10:15 Thu', 209.56 PLN, Palermo}
+{'WRO - CFU', flyAt='SEP-26 12:05 Fri', 184.0 PLN, Corfu}
