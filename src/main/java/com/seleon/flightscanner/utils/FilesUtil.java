@@ -24,8 +24,8 @@ public class FilesUtil {
         }
     }
 
-    public static String load(String fileName) {
-        Path path = Paths.get(PATH + fileName);
+    public static String load(String pathString, String fileName) {
+        Path path = Paths.get(pathString + fileName);
 
         Stream<String> lines = null;
         String data;
