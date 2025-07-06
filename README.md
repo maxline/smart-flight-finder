@@ -39,3 +39,9 @@ https://www.ryanair.com/api/farfnd/v4/roundTripFares?departureAirportIataCode=KR
 https://www.ryanair.com/api/farfnd/v4/roundTripFares?departureAirportIataCode=KRK&outboundDepartureDateFrom=2025-07-01&market=en-gb&adultPaxCount=1&outboundDepartureDateTo=2025-07-30&inboundDepartureDateFrom=2025-07-02&inboundDepartureDateTo=2025-07-31&durationFrom=1&durationTo=4&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY&arrivalAirportCategoryCodes=SEA&outboundDepartureTimeFrom=00:00&outboundDepartureTimeTo=13:00&inboundDepartureTimeFrom=00:00&inboundDepartureTimeTo=23:59
 
 https://www.ryanair.com/api/farfnd/v4/oneWayFares?departureAirportIataCode=KRK&outboundDepartureDateFrom=2025-07-01&market=en-gb&adultPaxCount=1&outboundDepartureDateTo=2025-08-31&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY&arrivalAirportCategoryCodes=SEA&outboundDepartureTimeFrom=07:00&outboundDepartureTimeTo=13:00&priceValueTo=300&currency=PLN
+
+
+
+https://o828979.ingest.sentry.io/api/4505782730162176/envelope/?sentry_key=9ec315b7805b988330c4a0db9d4ad982&sentry_version=7&sentry_client=sentry.javascript.react%2F7.118.0
+
+https://o828979.ingest.sentry.io/api/4505782730162176/envelope/?sentry_key=9ec315b7805b988330c4a0db9d4ad982&sentry_version=7&sentry_client=sentry.javascript.react%2F7.118.0

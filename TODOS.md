@@ -9,9 +9,11 @@ The first todos in the end of the file.
 7. add sorting as method parameter, later as api parameter
 8. add logger instead of system.out.println
 9. fix output price with two 00 cents (now only one 0) {'KRK - SKG', flyAt='OCT-30 08:45 Thu', 119.0 PLN, Thessaloniki}
+10. add page number if returns several pages
+11. add possibility to search by month not by date
 
 
-1. add output formatted summary data for round trip fares
+1. add output formatted summary data for round trip fares (+)
 2. move json parsing examples to unit tests (+)
 3. refactoring, move methods to the service class (+)
 4. add day of week to the output (+)
