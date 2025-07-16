@@ -10,15 +10,16 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FilesUtil {
-    public static final String PATH = "data/ryanair/";
+    public static final String PATH_RYAN = "data/ryanair/";
+    public static final String PATH_KIWI = "data/kiwi/";
 
-    public static void save(String content, String fileName) {
+    public static void save(String content, String pathString, String fileName) {
         try {
-            Files.write(Paths.get(PATH + fileName),
+            Files.write(Paths.get(pathString + fileName),
                     Collections.singletonList(content),
                     StandardOpenOption.CREATE,     // create file if it doesn't exist
                     StandardOpenOption.TRUNCATE_EXISTING);  // overwrite file if it exists
-            System.out.println("String saved to file: " + PATH + fileName);
+            System.out.println("String saved to file: " + pathString + fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }

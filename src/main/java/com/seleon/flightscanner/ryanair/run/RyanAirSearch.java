@@ -21,8 +21,8 @@ public class RyanAirSearch {
             "?departureAirportIataCode=" + AIRPORT_FROM,
             "&arrivalAirportCategoryCodes=" + ArrivalAirportCategoryCode.BEACH,
 
-            "&outboundDepartureDateFrom=2025-07-01",
-            "&outboundDepartureDateTo=2025-07-31",
+            "&outboundDepartureDateFrom=2025-08-01",
+            "&outboundDepartureDateTo=2025-08-15",
             "&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY",
             "&outboundDepartureTimeFrom=07:00",
             "&outboundDepartureTimeTo=13:00",
@@ -35,7 +35,7 @@ public class RyanAirSearch {
 
             "&market=en-gb",
             "&adultPaxCount=1",
-            "&priceValueTo=600",
+            "&priceValueTo=300",
             "&currency=PLN");
 
     public static void main(String[] args) {
@@ -53,7 +53,7 @@ public class RyanAirSearch {
             if (response != null) {
                 System.out.println("RyanAir fares api from " + AIRPORT_FROM + " " + SEARCH_MODE.getValue() + " call was executed. Response details:");
                 System.out.println(response.body());
-                FilesUtil.save(response.body(), FILE_TO_SAVE);
+                FilesUtil.save(response.body(),FilesUtil.PATH_RYAN, FILE_TO_SAVE);
             }
 
         } catch (Exception e) {

@@ -16,13 +16,13 @@ public class RyanAirRunner {
 
     public static void main(String[] args) {
 
-        flightDataExample(SearchMode.ROUND);
+        flightDataExample(SearchMode.ONE_WAY);
     }
 
     private static void flightDataExample(SearchMode searchMode) {
         String fileName = RYAN_AIR_FLIGHT_DATA_JSON + searchMode + "_003.json";
         System.out.println("Read data from file: " + fileName);
-        String flightDataJson = FilesUtil.load(FilesUtil.PATH, fileName);
+        String flightDataJson = FilesUtil.load(FilesUtil.PATH_RYAN, fileName);
         FlightData flightData = JsonUtil.jsonToObject(flightDataJson, FlightData.class);
 
         List<String> fareLites = faresProcessor.extractFareLites(flightData);

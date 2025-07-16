@@ -43,7 +43,7 @@ public class HttpUrlConnectionExample {
 
             System.out.println("Ответ от API:");
             System.out.println(response);
-            FilesUtil.save(response.toString(), "http_url_con_02.json");
+            FilesUtil.save(response.toString(), "data/", "http_url_con_02.json");
 
         } catch (Exception e) {
             e.printStackTrace();

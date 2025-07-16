@@ -56,7 +56,7 @@ public class FlightSearch {
             System.out.println("Resonse from  API:");
             System.out.println(response);
 
-            FilesUtil.save(response.toString(), "flight_search_output_01.json");
+            FilesUtil.save(response.toString(), FilesUtil.PATH_RYAN, "flight_search_output_01.json");
 
         } catch (Exception e) {
             e.printStackTrace();
