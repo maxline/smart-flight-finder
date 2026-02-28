@@ -30,6 +30,13 @@ Next releases.
 https://www.postman.com/cgt-matellio/flights-apis/collection/zam6nsj/amadeus-for-developers
 https://developers.amadeus.com/self-service/category/flights/api-doc/flight-inspiration-search/api-reference
 
+## Travelpayouts
+https://www.travelpayouts.com/brands-directory/flights/
+https://us.trip.com/flights
+https://wayaway.io/?params=KRK3107PRG04081
+https://ourairports.com/data/
+https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat
+
 ## Ryanair API
 Postman
 - https://www.postman.com/hakkotsu/ryanair/overview

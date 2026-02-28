@@ -53,7 +53,7 @@ public class FareLite {
             price = price + " + " + formatPrice(inboundPriceValue) + " = " + formatPrice(totalPrice);
         }
 
-        String result = String.format("{'%s', from='%s', to='%s', %s, %s}", route, from, to, price, outboundArrivalCity);
+        String result = String.format("{ '%s', from='%s', to='%s', %s, %s }", route, from, to, price, outboundArrivalCity);
         return result;
     }
 
