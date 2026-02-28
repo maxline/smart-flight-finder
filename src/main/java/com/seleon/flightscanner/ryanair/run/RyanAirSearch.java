@@ -21,15 +21,15 @@ public class RyanAirSearch {
             "?departureAirportIataCode=" + AIRPORT_FROM,
             "&arrivalAirportCategoryCodes=" + ArrivalAirportCategoryCode.BEACH,
 
-            "&outboundDepartureDateFrom=2025-07-01",
-            "&outboundDepartureDateTo=2025-07-31",
-            "&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY",
+            "&outboundDepartureDateFrom=2026-03-01",
+            "&outboundDepartureDateTo=2026-03-31",
+            "&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY,SUNDAY",
             "&outboundDepartureTimeFrom=07:00",
             "&outboundDepartureTimeTo=13:00",
 
             "&durationFrom=1&durationTo=4",
-            "&inboundDepartureDateFrom=2025-07-02",
-            "&inboundDepartureDateTo=2025-07-31",
+            "&inboundDepartureDateFrom=2026-03-02",
+            "&inboundDepartureDateTo=2026-03-31",
             "&inboundDepartureTimeFrom=16:00",
             "&inboundDepartureTimeTo=23:59",
 

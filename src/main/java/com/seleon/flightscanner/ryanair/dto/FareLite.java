@@ -9,15 +9,15 @@ import java.util.Locale;
 
 @Data
 public class FareLite {
-    private String outboundDepartureIataCode;
-    private String outboundArrivalIataCode;
+    private String outboundDepartureIataCode; // airport from my home
+    private String outboundArrivalIataCode; // airport to destination
     private String outboundArrivalCity;
     private LocalDateTime outboundDepartureDate;
     private double outboundPriceValue;
     private String outboundCurrencyCode;
 
-    private String inboundDepartureIataCode;
-    private String inboundArrivalIataCode;
+    private String inboundDepartureIataCode; // airport from destination
+    private String inboundArrivalIataCode; // airport to my home
     private LocalDateTime inboundDepartureDate;
     private double inboundPriceValue;
     private String inboundCurrencyCode;
@@ -43,29 +43,26 @@ public class FareLite {
      * @return {'KRK - CTA', flyAt='OCT-30 10:55 Thu', 119.0 PLN, Catania}
      */
     public String toBrief() {
-        String dayOfWeek = outboundDepartureDate.getDayOfWeek().getDisplayName(TextStyle.SHORT, Locale.ENGLISH);
-        String outboundFlyAt = outboundDepartureDate.format(RyanAirConstants.TIME_FORMATTER).toUpperCase() + " " + dayOfWeek;
+        String route = outboundDepartureIataCode + " - " + outboundArrivalIataCode;
+        String from = formatDate(outboundDepartureDate);
+        String to = inboundDepartureIataCode != null ? formatDate(inboundDepartureDate) : "";
 
-        String brief = "{" +
-                '\'' + outboundDepartureIataCode +
-                " - " + outboundArrivalIataCode + '\'' +
-                ", flyAt='" + outboundFlyAt + '\'';
-
+        String price = outboundCurrencyCode + " " + formatPrice(outboundPriceValue);
         if (inboundDepartureIataCode != null) {
-            dayOfWeek = inboundDepartureDate.getDayOfWeek().getDisplayName(TextStyle.SHORT, Locale.ENGLISH);
-            String inboundFlyAt = inboundDepartureDate.format(RyanAirConstants.TIME_FORMATTER).toUpperCase() + " " + dayOfWeek;
-
-            //brief = brief + ", \'" + inboundDepartureIataCode + " - " + inboundArrivalIataCode + '\'';
-            brief = brief + ", flyAt='" + inboundFlyAt + '\'';
+            double totalPrice = outboundPriceValue + inboundPriceValue;
+            price = price + " + " + formatPrice(inboundPriceValue) + " = " + formatPrice(totalPrice);
         }
 
-        brief = brief + ", " + outboundPriceValue + " " + outboundCurrencyCode;
+        String result = String.format("{'%s', from='%s', to='%s', %s, %s}", route, from, to, price, outboundArrivalCity);
+        return result;
+    }
 
-        if (inboundDepartureIataCode != null) {
-            brief = brief + ", " + inboundPriceValue + " " + inboundCurrencyCode;
-        }
+    private String formatDate(LocalDateTime dateTime) {
+        String dayOfWeek = dateTime.getDayOfWeek().getDisplayName(TextStyle.SHORT, Locale.ENGLISH);
+        return dateTime.format(RyanAirConstants.TIME_FORMATTER).toUpperCase() + " " + dayOfWeek;
+    }
 
-        brief = brief + ", " + outboundArrivalCity + '}';
-        return brief;
+    private String formatPrice(double price) {
+        return String.format("%.2f", price);
     }
 }

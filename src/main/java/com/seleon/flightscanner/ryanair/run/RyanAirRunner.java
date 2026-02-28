@@ -16,7 +16,7 @@ public class RyanAirRunner {
 
     public static void main(String[] args) {
 
-        flightDataExample(SearchMode.ROUND);
+        flightDataExample(SearchMode.ONE_WAY);
     }
 
     private static void flightDataExample(SearchMode searchMode) {

@@ -9,12 +9,12 @@ public class RyanAirConstants {
 
     public static final String RYAN_AIR_ONE_WAY_URL_SAMPLE = String.join("",
             "https://www.ryanair.com/api/farfnd/v4/oneWayFares",
-            "?departureAirportIataCode=KRK",
-            "&outboundDepartureDateFrom=2025-07-01",
+            "?departureAirportIataCode=WRO",
+            "&outboundDepartureDateFrom=2026-03-01",
             "&market=en-gb",
             "&adultPaxCount=1",
-            "&outboundDepartureDateTo=2025-08-31",
-            "&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY",
+            "&outboundDepartureDateTo=2026-03-31",
+            "&outboundDepartureDaysOfWeek=THURSDAY,FRIDAY,SATURDAY, SUNDAY",
             "&arrivalAirportCategoryCodes=SEA",
             "&outboundDepartureTimeFrom=07:00",
             "&outboundDepartureTimeTo=13:00",
@@ -24,7 +24,7 @@ public class RyanAirConstants {
 
     public static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("MMM-dd HH:mm");
 
-    public static IataCode AIRPORT_FROM = IataCode.KRK;
-    public static SearchMode SEARCH_MODE = SearchMode.ROUND;
+    public static IataCode AIRPORT_FROM = IataCode.WRO;
+    public static SearchMode SEARCH_MODE = SearchMode.ONE_WAY;
 
 }
