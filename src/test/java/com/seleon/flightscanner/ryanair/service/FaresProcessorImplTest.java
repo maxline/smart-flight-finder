@@ -4,6 +4,7 @@ import com.seleon.flightscanner.ryanair.dto.Airport;
 import com.seleon.flightscanner.ryanair.dto.Fare;
 import com.seleon.flightscanner.ryanair.dto.FlightData;
 import com.seleon.flightscanner.ryanair.dto.Outbound;
+import com.seleon.flightscanner.ryanair.enums.IataCode;
 import com.seleon.flightscanner.utils.FilesUtil;
 import com.seleon.flightscanner.utils.JsonUtil;
 import org.junit.jupiter.api.Test;
@@ -12,7 +13,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static com.seleon.flightscanner.ryanair.constants.RyanAirConstants.AIRPORT_FROM;
 import static com.seleon.flightscanner.ryanair.service.SampleData.OUTBOUND_JSON_SAMPLE;
 
 public class FaresProcessorImplTest {
@@ -68,6 +68,7 @@ public class FaresProcessorImplTest {
     @Test
     void extractAirportsTest() {
         final String ryanAirFlightDataJson = "ryan_air_KRK_ONE_WAY_001.json";
+        final IataCode AIRPORT_FROM = IataCode.KRK;
 
         String flightDataJson = FilesUtil.load("src/test/resources/", ryanAirFlightDataJson);
         //todo remove and create FlightData in SampleData class
@@ -75,6 +76,7 @@ public class FaresProcessorImplTest {
         FlightData flightData = JsonUtil.jsonToObject(flightDataJson, FlightData.class);
 
         List<Airport> airports = faresProcessor.extractAirports(flightData);
+
 
         System.out.println("Departure from " + AIRPORT_FROM + " - list of arrival Airports:");
         System.out.println(JsonUtil.listToNewLineString(airports));
