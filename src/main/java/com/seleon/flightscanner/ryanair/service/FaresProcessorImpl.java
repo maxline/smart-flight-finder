@@ -5,6 +5,7 @@ import com.seleon.flightscanner.ryanair.dto.Fare;
 import com.seleon.flightscanner.ryanair.dto.FlightData;
 import com.seleon.flightscanner.ryanair.dto.Outbound;
 import com.seleon.flightscanner.ryanair.dto.FareLite;
+import com.seleon.flightscanner.ryanair.enums.SortBy;
 import com.seleon.flightscanner.utils.JsonUtil;
 
 import java.util.Comparator;
@@ -23,9 +24,36 @@ public class FaresProcessorImpl {
     }
 
     public List<String> extractFareLites(FlightData flightData) {
+        return extractFareLites(flightData, SortBy.DATE_FROM);
+    }
+
+    public List<String> extractFareLites(FlightData flightData, SortBy sortBy) {
+        Comparator<FareLite> comparator;
+
+        switch (sortBy) {
+            case PRICE:
+                // Sort by total price (outbound + inbound if exists)
+                comparator = Comparator.comparingDouble(fare ->
+                    fare.getOutboundPriceValue() +
+                    (fare.getInboundPriceValue() > 0 ? fare.getInboundPriceValue() : 0)
+                );
+                break;
+            case DAY_OF_WEEK:
+                // Sort by day of week (Monday=1, Sunday=7)
+                comparator = Comparator.comparingInt(fare ->
+                    fare.getOutboundDepartureDate().getDayOfWeek().getValue()
+                );
+                break;
+            case DATE_FROM:
+            default:
+                // Sort by departure date
+                comparator = Comparator.comparing(FareLite::getOutboundDepartureDate);
+                break;
+        }
+
         return flightData.getFares().stream()
                 .map(fare -> new FareLite(fare.getOutbound(), fare.getInbound()))
-                .sorted(Comparator.comparing(FareLite::getOutboundDepartureDate))
+                .sorted(comparator)
                 .map(FareLite::toBrief)
                 .collect(Collectors.toList());
     }

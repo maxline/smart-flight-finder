@@ -5,6 +5,7 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 import java.time.format.TextStyle;
+import java.time.temporal.ChronoUnit;
 import java.util.Locale;
 
 @Data
@@ -43,17 +44,23 @@ public class FareLite {
      * @return {'KRK - CTA', flyAt='OCT-30 10:55 Thu', 119.0 PLN, Catania}
      */
     public String toBrief() {
+        String result;
         String route = outboundDepartureIataCode + " - " + outboundArrivalIataCode;
         String from = formatDate(outboundDepartureDate);
         String to = inboundDepartureIataCode != null ? formatDate(inboundDepartureDate) : "";
 
         String price = outboundCurrencyCode + " " + formatPrice(outboundPriceValue);
+
         if (inboundDepartureIataCode != null) {
             double totalPrice = outboundPriceValue + inboundPriceValue;
-            price = price + " + " + formatPrice(inboundPriceValue) + " = " + formatPrice(totalPrice);
+            price = price + " + " + formatPrice(inboundPriceValue) + " = 💰 " + formatPrice(totalPrice);
+            long daysBetween = ChronoUnit.DAYS.between(outboundDepartureDate.toLocalDate(), inboundDepartureDate.toLocalDate());
+            result = String.format("✈️  %s | 📅 From: %s → Back: %s | 💰 %s | 📍 %s | ⏱️  %d days",
+                    route, from, to, price, outboundArrivalCity, daysBetween);
+        } else {
+            result = String.format("✈️  %s | 📅 %s | 💰 %s | 📍 %s",
+                    route, from, price, outboundArrivalCity);
         }
-
-        String result = String.format("{ '%s', from='%s', to='%s', %s, %s }", route, from, to, price, outboundArrivalCity);
         return result;
     }
 

@@ -1,8 +1,8 @@
 package com.seleon.flightscanner.ryanair.enums;
 
-public enum ArrivalAirportCategoryCode {
+public enum ArrivalCategory {
     BEACH("SEA"),
-    CIY_BREAK("CTY"),
+    CITY_BREAK("CTY"),
     FAMILY("FAM"),
     NIGHT_LIFE("NIT"),
     OUTDOOR("OUT");
@@ -10,7 +10,7 @@ public enum ArrivalAirportCategoryCode {
 
     private final String value;
 
-    ArrivalAirportCategoryCode(String value) {
+    ArrivalCategory(String value) {
         this.value = value;
     }
 
