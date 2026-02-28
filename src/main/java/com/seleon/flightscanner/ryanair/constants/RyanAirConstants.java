@@ -24,7 +24,6 @@ public class RyanAirConstants {
 
     public static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("MMM-dd HH:mm");
 
-    public static IataCode AIRPORT_FROM = IataCode.KRK;
-    public static SearchMode SEARCH_MODE = SearchMode.ROUND;
+    public static SearchMode SEARCH_MODE = SearchMode.ONE_WAY;
 
 }

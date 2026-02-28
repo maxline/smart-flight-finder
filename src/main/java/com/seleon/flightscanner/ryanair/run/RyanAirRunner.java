@@ -1,6 +1,7 @@
 package com.seleon.flightscanner.ryanair.run;
 
 import com.seleon.flightscanner.ryanair.dto.*;
+import com.seleon.flightscanner.ryanair.enums.IataCode;
 import com.seleon.flightscanner.ryanair.enums.SearchMode;
 import com.seleon.flightscanner.ryanair.service.FaresProcessorImpl;
 import com.seleon.flightscanner.utils.FilesUtil;
@@ -8,10 +9,11 @@ import com.seleon.flightscanner.utils.JsonUtil;
 
 import java.util.List;
 
-import static com.seleon.flightscanner.ryanair.constants.RyanAirConstants.AIRPORT_FROM;
 
 public class RyanAirRunner {
-    private static final String RYAN_AIR_FLIGHT_DATA_JSON = "ryan_air_" + AIRPORT_FROM + "_" ;
+    public static IataCode AIRPORT_FROM = IataCode.KRK;
+
+    private static final String RYAN_AIR_FLIGHT_DATA_JSON = "ryan_air_" + AIRPORT_FROM.name() + "_" ;
     private static final FaresProcessorImpl faresProcessor = new FaresProcessorImpl();
 
     public static void main(String[] args) {
