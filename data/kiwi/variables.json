@@ -1,0 +1,84 @@
+{
+  "search": {
+    "itinerary": {
+      "source": {
+        "ids": [
+          "38.35--0.49-250km"
+        ]
+      },
+      "destination": {
+        "ids": [
+          "City:krakow_pl"
+        ]
+      },
+      "outboundDepartureDate": {
+        "start": "2025-09-01T00:00:00",
+        "end": "2025-09-09T23:59:59"
+      }
+    },
+    "passengers": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "adultsHoldBags": [
+        0
+      ],
+      "adultsHandBags": [
+        0
+      ],
+      "childrenHoldBags": [],
+      "childrenHandBags": []
+    },
+    "cabinClass": {
+      "cabinClass": "ECONOMY",
+      "applyMixedClasses": false
+    }
+  },
+  "filter": {
+    "allowChangeInboundDestination": true,
+    "allowChangeInboundSource": true,
+    "allowDifferentStationConnection": true,
+    "enableSelfTransfer": true,
+    "enableThrowAwayTicketing": true,
+    "enableTrueHiddenCity": true,
+    "outbound": {
+      "departureHours": {
+        "start": 16,
+        "end": 24
+      }
+    },
+    "transportTypes": [
+      "FLIGHT"
+    ],
+    "contentProviders": [
+      "KIWI"
+    ],
+    "flightsApiLimit": 25,
+    "limit": 10
+  },
+  "options": {
+    "sortBy": "QUALITY",
+    "mergePriceDiffRule": "INCREASED",
+    "currency": "pln",
+    "apiUrl": null,
+    "locale": "ru",
+    "market": "pl",
+    "partner": "skypicker",
+    "partnerMarket": "ru",
+    "affilID": "acquisition000performance000sem000google",
+    "storeSearch": false,
+    "searchStrategy": "REDUCED",
+    "abTestInput": {
+      "priceElasticityGuarantee": "ENABLE",
+      "baggageProtectionBundle": "ENABLE",
+      "paretoProtectVanilla": "ENABLE",
+      "kiwiBasicThirdIteration": "C",
+      "kayakWithoutBags": "DISABLE",
+      "carriersDeeplinkResultsEnable": true,
+      "carriersDeeplinkOnSEMEnable": true
+    },
+    "serverToken": "eyJ0b2tlbiI6ImcxNmFUWTJUZF9GREhMeE9mU2FaZ2dJa2VwOUhhVFYzRFRReERubm1BalpCTEhvT1I2dnJEMzhueExtZWlvUGNUTWZiaFNaNjJpd2FneV82TUpWemhZR2c0SEJwb3JYc09VVGg0NllvVk5rTkEyYW9qWFdWd3FZdVd3YU9obWplUnJVQXBXUlRXYldJdUZvMExKTXlDSHluZnJ2ZVRuSDd2YU9HOVRXcDNmVE1wY05PRVBKbWhnSkxEUERnQ2tScEhJeUJDQWhJb2RQd1FWZnZQM1o2N0oxUmV1MmMzQzRqakhJV1Z0aGxZTmNHdVpQalBMUURyLURCdjJobUt5RkJibmhJQnVHR0F1Sy1KaGl2TkhzZ1JodmVoeE4xYTI3azhoSVNZVDlQWFBRRkpMNmV0RktIQWgwTUVaOThGckJBZ2F4OUdSUklfR0dKNDBUTnJIbnA2OGFXUUNHdUtNY0poYWZBd3FJQ3ZXRENKYURXWkR6Y1lsWXdpbEhGNXVBZGZkMl9iLTdOS0ZYWF9oUzJhWnZWa2U3Y2ZFazZqcEF3VjdFakpHdDMzdkJqcWQyNEJ1cFFxZy04TTl5VnFRZWZwdDd0WTlsNHhWbDJoYWlmV2N5Zy1ybXNOSndKdzVZX3MzV0xxaTY0blhBb01MQk1fclhxeEFDT3JCc0FJSjNwOUFvSjJpRXRyWGZlMUxibmJsQWd2UT09IiwidGltZXMiOnsiMSI6MTc1MjMwNTg0My41NTF9fQ==",
+    "searchSessionId": "dea99c9fdfd24b6a98fe24dbc7b36d53"
+  },
+  "conditions": false
+}

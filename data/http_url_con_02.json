@@ -1,0 +1,257 @@
+{
+  "arrivalAirportCategories": null,
+  "fares": [
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Italy",
+          "iataCode": "PSR",
+          "name": "Pescara",
+          "seoName": "pescara",
+          "city": {
+            "name": "Pescara",
+            "code": "PESCARA",
+            "countryCode": "it"
+          }
+        },
+        "departureDate": "2025-07-25T11:30:00",
+        "arrivalDate": "2025-07-25T13:20:00",
+        "price": {
+          "value": 146.00,
+          "valueMainUnit": "146",
+          "valueFractionalUnit": "00",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~3045~ ~~KRK~07/25/2025 11:30~PSR~07/25/2025 13:20~~",
+        "flightNumber": "FR3045",
+        "previousPrice": null,
+        "priceUpdated": 1752340686000
+      },
+      "summary": {
+        "price": {
+          "value": 146.00,
+          "valueMainUnit": "146",
+          "valueFractionalUnit": "00",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Italy",
+          "iataCode": "BRI",
+          "name": "Bari",
+          "seoName": "bari",
+          "city": {
+            "name": "Bari",
+            "code": "BARI",
+            "countryCode": "it"
+          }
+        },
+        "departureDate": "2025-08-07T11:20:00",
+        "arrivalDate": "2025-08-07T13:15:00",
+        "price": {
+          "value": 162.32,
+          "valueMainUnit": "162",
+          "valueFractionalUnit": "32",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~2722~ ~~KRK~08/07/2025 11:20~BRI~08/07/2025 13:15~~",
+        "flightNumber": "FR2722",
+        "previousPrice": null,
+        "priceUpdated": 1752336696000
+      },
+      "summary": {
+        "price": {
+          "value": 162.32,
+          "valueMainUnit": "162",
+          "valueFractionalUnit": "32",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Spain",
+          "iataCode": "PMI",
+          "name": "Palma de Mallorca",
+          "seoName": "palma-mallorca",
+          "city": {
+            "name": "Palma",
+            "code": "PALMA",
+            "countryCode": "es"
+          }
+        },
+        "departureDate": "2025-07-25T11:40:00",
+        "arrivalDate": "2025-07-25T14:40:00",
+        "price": {
+          "value": 220.37,
+          "valueMainUnit": "220",
+          "valueFractionalUnit": "37",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~4512~ ~~KRK~07/25/2025 11:40~PMI~07/25/2025 14:40~~",
+        "flightNumber": "FR4512",
+        "previousPrice": null,
+        "priceUpdated": 1752311947000
+      },
+      "summary": {
+        "price": {
+          "value": 220.37,
+          "valueMainUnit": "220",
+          "valueFractionalUnit": "37",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Greece",
+          "iataCode": "CHQ",
+          "name": "Chania",
+          "seoName": "crete",
+          "city": {
+            "name": "Chania",
+            "code": "CHANIA",
+            "countryCode": "gr"
+          }
+        },
+        "departureDate": "2025-07-25T07:00:00",
+        "arrivalDate": "2025-07-25T10:35:00",
+        "price": {
+          "value": 246.23,
+          "valueMainUnit": "246",
+          "valueFractionalUnit": "23",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~3051~ ~~KRK~07/25/2025 07:00~CHQ~07/25/2025 10:35~~",
+        "flightNumber": "FR3051",
+        "previousPrice": null,
+        "priceUpdated": 1752302561000
+      },
+      "summary": {
+        "price": {
+          "value": 246.23,
+          "valueMainUnit": "246",
+          "valueFractionalUnit": "23",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "KRK",
+          "name": "Krakow",
+          "seoName": "krakow",
+          "city": {
+            "name": "Krakow",
+            "code": "KRAKOW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Spain",
+          "iataCode": "ALC",
+          "name": "Alicante",
+          "seoName": "alicante",
+          "city": {
+            "name": "Alicante",
+            "code": "ALICANTE",
+            "countryCode": "es"
+          }
+        },
+        "departureDate": "2025-07-25T09:15:00",
+        "arrivalDate": "2025-07-25T12:35:00",
+        "price": {
+          "value": 297.39,
+          "valueMainUnit": "297",
+          "valueFractionalUnit": "39",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~6355~ ~~KRK~07/25/2025 09:15~ALC~07/25/2025 12:35~~",
+        "flightNumber": "FR6355",
+        "previousPrice": null,
+        "priceUpdated": 1752303137000
+      },
+      "summary": {
+        "price": {
+          "value": 297.39,
+          "valueMainUnit": "297",
+          "valueFractionalUnit": "39",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    }
+  ],
+  "nextPage": null,
+  "size": 5
+}

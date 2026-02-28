@@ -1,0 +1,75 @@
+{
+  "query": "query CalendarPricesFetcherQuery(\n  $search: SearchPricesCalendarInput\n  $filter: ItinerariesFilterInput\n  $options: ItinerariesOptionsInput\n) {\n  itineraryPricesCalendar(search: $search, filter: $filter, options: $options) {\n    __typename\n    ... on ItineraryPricesCalendar {\n      calendar {\n        date\n        ratedPrice {\n          price {\n            amount\n          }\n          rating\n        }\n      }\n    }\n    ... on AppError {\n      error: message\n    }\n  }\n}\n",
+  "variables": {
+    "search": {
+      "source": {
+        "ids": [
+          "{source_coordinates}"
+        ]
+      },
+      "destination": {
+        "ids": [
+          "{destination_ids}"
+        ]
+      },
+      "dates": {
+        "start": "{start}",
+        "end": "{end}"
+      },
+      "passengers": {
+        "adults": 1,
+        "children": 0,
+        "infants": 0,
+        "adultsHoldBags": [
+          0
+        ],
+        "adultsHandBags": [
+          0
+        ],
+        "childrenHoldBags": [],
+        "childrenHandBags": []
+      },
+      "cabinClass": {
+        "cabinClass": "ECONOMY",
+        "applyMixedClasses": false
+      }
+    },
+    "filter": {
+      "allowChangeInboundDestination": true,
+      "allowChangeInboundSource": true,
+      "allowDifferentStationConnection": true,
+      "enableSelfTransfer": true,
+      "enableThrowAwayTicketing": true,
+      "enableTrueHiddenCity": true,
+      "outbound": {
+        "departureHours": {
+          "start": 16,
+          "end": 24
+        }
+      },
+      "transportTypes": [
+        "FLIGHT"
+      ],
+      "contentProviders": [
+        "KIWI"
+      ],
+      "flightsApiLimit": 25
+    },
+    "options": {
+      "sortBy": "QUALITY",
+      "mergePriceDiffRule": "INCREASED",
+      "currency": "pln",
+      "apiUrl": null,
+      "locale": "ru",
+      "market": "pl",
+      "partner": "skypicker",
+      "partnerMarket": "ru",
+      "affilID": "acquisition000performance000sem000google",
+      "storeSearch": false,
+      "searchStrategy": "REDUCED",
+      "abTestInput": {
+        "priceElasticityGuarantee": "ENABLE"
+      }
+    }
+  }
+}
