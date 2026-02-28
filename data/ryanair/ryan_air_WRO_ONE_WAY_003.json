@@ -1,0 +1,408 @@
+{
+  "arrivalAirportCategories": null,
+  "fares": [
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Cyprus",
+          "iataCode": "PFO",
+          "name": "Paphos",
+          "seoName": "paphos",
+          "city": {
+            "name": "Paphos",
+            "code": "PAPHOS",
+            "countryCode": "cy"
+          }
+        },
+        "departureDate": "2026-03-05T07:15:00",
+        "arrivalDate": "2026-03-05T11:50:00",
+        "price": {
+          "value": 130.37,
+          "valueMainUnit": "130",
+          "valueFractionalUnit": "37",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~9265~ ~~WRO~03/05/2026 07:15~PFO~03/05/2026 11:50~~",
+        "flightNumber": "FR9265",
+        "previousPrice": null,
+        "priceUpdated": 1772262007000
+      },
+      "summary": {
+        "price": {
+          "value": 130.37,
+          "valueMainUnit": "130",
+          "valueFractionalUnit": "37",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Malta",
+          "iataCode": "MLA",
+          "name": "Malta",
+          "seoName": "malta",
+          "city": {
+            "name": "Malta",
+            "code": "MALTA",
+            "countryCode": "mt"
+          }
+        },
+        "departureDate": "2026-03-15T08:55:00",
+        "arrivalDate": "2026-03-15T11:40:00",
+        "price": {
+          "value": 162.79,
+          "valueMainUnit": "162",
+          "valueFractionalUnit": "79",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~3463~ ~~WRO~03/15/2026 08:55~MLA~03/15/2026 11:40~~",
+        "flightNumber": "FR3463",
+        "previousPrice": null,
+        "priceUpdated": 1772260211000
+      },
+      "summary": {
+        "price": {
+          "value": 162.79,
+          "valueMainUnit": "162",
+          "valueFractionalUnit": "79",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Italy",
+          "iataCode": "PMO",
+          "name": "Palermo",
+          "seoName": "palermo",
+          "city": {
+            "name": "Palermo",
+            "code": "PALERMO",
+            "countryCode": "it"
+          }
+        },
+        "departureDate": "2026-03-12T12:55:00",
+        "arrivalDate": "2026-03-12T15:25:00",
+        "price": {
+          "value": 195.68,
+          "valueMainUnit": "195",
+          "valueFractionalUnit": "68",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~2026~ ~~WRO~03/12/2026 12:55~PMO~03/12/2026 15:25~~",
+        "flightNumber": "FR2026",
+        "previousPrice": null,
+        "priceUpdated": 1772261108000
+      },
+      "summary": {
+        "price": {
+          "value": 195.68,
+          "valueMainUnit": "195",
+          "valueFractionalUnit": "68",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Portugal",
+          "iataCode": "OPO",
+          "name": "Porto",
+          "seoName": "porto",
+          "city": {
+            "name": "Porto",
+            "code": "PORTO",
+            "countryCode": "pt"
+          }
+        },
+        "departureDate": "2026-03-28T08:05:00",
+        "arrivalDate": "2026-03-28T10:35:00",
+        "price": {
+          "value": 289.02,
+          "valueMainUnit": "289",
+          "valueFractionalUnit": "02",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~4423~ ~~WRO~03/28/2026 08:05~OPO~03/28/2026 10:35~~",
+        "flightNumber": "FR4423",
+        "previousPrice": null,
+        "priceUpdated": 1772261109000
+      },
+      "summary": {
+        "price": {
+          "value": 289.02,
+          "valueMainUnit": "289",
+          "valueFractionalUnit": "02",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Spain",
+          "iataCode": "VLC",
+          "name": "Valencia",
+          "seoName": "valencia",
+          "city": {
+            "name": "Valencia",
+            "code": "VALENCIA",
+            "macCode": "VNC",
+            "countryCode": "es"
+          }
+        },
+        "departureDate": "2026-03-05T07:55:00",
+        "arrivalDate": "2026-03-05T11:00:00",
+        "price": {
+          "value": 346.88,
+          "valueMainUnit": "346",
+          "valueFractionalUnit": "88",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~4307~ ~~WRO~03/05/2026 07:55~VLC~03/05/2026 11:00~~",
+        "flightNumber": "FR4307",
+        "previousPrice": null,
+        "priceUpdated": 1772260211000
+      },
+      "summary": {
+        "price": {
+          "value": 346.88,
+          "valueMainUnit": "346",
+          "valueFractionalUnit": "88",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Spain",
+          "iataCode": "AGP",
+          "name": "Malaga",
+          "seoName": "malaga",
+          "city": {
+            "name": "Malaga",
+            "code": "MALAGA",
+            "countryCode": "es"
+          }
+        },
+        "departureDate": "2026-03-29T10:55:00",
+        "arrivalDate": "2026-03-29T14:40:00",
+        "price": {
+          "value": 362.97,
+          "valueMainUnit": "362",
+          "valueFractionalUnit": "97",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~2582~ ~~WRO~03/29/2026 10:55~AGP~03/29/2026 14:40~~",
+        "flightNumber": "FR2582",
+        "previousPrice": null,
+        "priceUpdated": 1772261105000
+      },
+      "summary": {
+        "price": {
+          "value": 362.97,
+          "valueMainUnit": "362",
+          "valueFractionalUnit": "97",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Greece",
+          "iataCode": "CHQ",
+          "name": "Chania",
+          "seoName": "crete",
+          "city": {
+            "name": "Chania",
+            "code": "CHANIA",
+            "countryCode": "gr"
+          }
+        },
+        "departureDate": "2026-03-29T12:45:00",
+        "arrivalDate": "2026-03-29T16:35:00",
+        "price": {
+          "value": 411.23,
+          "valueMainUnit": "411",
+          "valueFractionalUnit": "23",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~7588~ ~~WRO~03/29/2026 12:45~CHQ~03/29/2026 16:35~~",
+        "flightNumber": "FR7588",
+        "previousPrice": null,
+        "priceUpdated": 1772260207000
+      },
+      "summary": {
+        "price": {
+          "value": 411.23,
+          "valueMainUnit": "411",
+          "valueFractionalUnit": "23",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    },
+    {
+      "outbound": {
+        "departureAirport": {
+          "countryName": "Poland",
+          "iataCode": "WRO",
+          "name": "Wroclaw",
+          "seoName": "wroclaw",
+          "city": {
+            "name": "Wroclaw",
+            "code": "WROCLAW",
+            "countryCode": "pl"
+          }
+        },
+        "arrivalAirport": {
+          "countryName": "Spain",
+          "iataCode": "GRO",
+          "name": "Barcelona Girona",
+          "seoName": "barcelona-girona",
+          "city": {
+            "name": "Girona",
+            "code": "GIRONA",
+            "countryCode": "es"
+          }
+        },
+        "departureDate": "2026-03-29T12:35:00",
+        "arrivalDate": "2026-03-29T15:05:00",
+        "price": {
+          "value": 453.80,
+          "valueMainUnit": "453",
+          "valueFractionalUnit": "80",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "flightKey": "FR~7590~ ~~WRO~03/29/2026 12:35~GRO~03/29/2026 15:05~~",
+        "flightNumber": "FR7590",
+        "previousPrice": null,
+        "priceUpdated": 1772261106000
+      },
+      "summary": {
+        "price": {
+          "value": 453.80,
+          "valueMainUnit": "453",
+          "valueFractionalUnit": "80",
+          "currencyCode": "PLN",
+          "currencySymbol": "zł"
+        },
+        "previousPrice": null,
+        "newRoute": false
+      }
+    }
+  ],
+  "nextPage": null,
+  "size": 8
+}
