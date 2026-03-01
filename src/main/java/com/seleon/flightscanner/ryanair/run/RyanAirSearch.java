@@ -3,7 +3,7 @@ package com.seleon.flightscanner.ryanair.run;
 import com.seleon.flightscanner.ryanair.dto.FlightData;
 import com.seleon.flightscanner.ryanair.dto.SearchParameters;
 import com.seleon.flightscanner.ryanair.enums.ArrivalCategory;
-import com.seleon.flightscanner.ryanair.enums.IataCode;
+import com.seleon.flightscanner.nearbyairports.IataCode;
 import com.seleon.flightscanner.ryanair.enums.SearchMode;
 import com.seleon.flightscanner.ryanair.enums.SortBy;
 import com.seleon.flightscanner.ryanair.service.FaresProcessorImpl;

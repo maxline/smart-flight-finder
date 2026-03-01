@@ -1,4 +1,4 @@
-package com.seleon.flightscanner.ryanair.enums;
+package com.seleon.flightscanner.nearbyairports;
 
 import lombok.Getter;
 
@@ -33,6 +33,7 @@ public enum IataCode {
     BIO("Bilbao", "43.3--2.91"),
     IBZ("Ibiza", "38.88-1.41"),
     LPA("Las Palmas", "27.93--15.39"),
+    MAD("Madrid", "40.47--3.56"),
     PMI("Palma de Mallorca", "39.55-2.73"),
     SCQ("Santiago de Compostela", "42.9--8.41"),
     TFS("Tenerife South", "28.04--16.59"),
@@ -90,9 +91,16 @@ public enum IataCode {
     SOF("Sofia", "42.69-23.41"),
     VAR("Varna", "43.23-27.83"),
 
+    // 🇷🇴 Romania
+    BBU("Bucharest Baneasa", "44.50-26.10"),
+
+    // 🇲🇩 Moldova
+    RMO("Chisinau", "46.93-28.93"),
+
     // 🇩🇪 Germany
     BER("Berlin Brandenburg", "52.37-13.51"),
     CGN("Cologne", "50.87-7.14"),
+    DTM("Dortmund", "51.52-7.61"),
     DUS("Düsseldorf", "51.29-6.77"),
     FRA("Frankfurt", "50.04-8.57"),
     HAM("Hamburg", "53.63-9.99"),
@@ -118,7 +126,26 @@ public enum IataCode {
     KLU("Klagenfurt", "46.64-14.34"),
     LNZ("Linz", "48.23-14.19"),
     SZG("Salzburg", "47.80-13.00"),
-    VIE("Vienna", "48.11-16.57");
+    VIE("Vienna", "48.11-16.57"),
+
+    // 🇳🇱 Netherlands
+    EIN("Eindhoven", "51.45-5.37"),
+
+    // 🇫🇷 France
+    NCE("Nice", "43.66-7.22"),
+
+    // 🇬🇧 United Kingdom
+    LGW("London Gatwick", "51.15--0.19"),
+    LTN("London Luton", "51.88--0.37"),
+
+    // 🇭🇺 Hungary
+    BUD("Budapest", "47.44-19.26"),
+
+    // 🇬🇪 Georgia
+    KUT("Kutaisi", "42.18-42.48"),
+
+    // 🇨🇭 Switzerland
+    BSL("Basel", "47.59-7.53");
 
     private final String city;
     private final String coords;

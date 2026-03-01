@@ -2,7 +2,7 @@ package com.seleon.flightscanner.kiwi;
 
 import com.seleon.flightscanner.kiwi.dto.response.calendar.CalendarEntryLite;
 import com.seleon.flightscanner.kiwi.dto.response.calendar.ItineraryCalendarResponse;
-import com.seleon.flightscanner.ryanair.enums.IataCode;
+import com.seleon.flightscanner.nearbyairports.IataCode;
 import com.seleon.flightscanner.utils.FilesUtil;
 import com.seleon.flightscanner.utils.JsonUtil;
 
@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.seleon.flightscanner.ryanair.enums.IataCode.*;
+import static com.seleon.flightscanner.nearbyairports.IataCode.*;
 
 public class KiwiRun {
     public static final String SEARCH_ONE_WAY_URL =  "https://api.skypicker.com/umbrella/v2/graphql?featureName=SearchOneWayItinerariesQuery";

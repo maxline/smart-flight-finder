@@ -4,7 +4,7 @@ import com.seleon.flightscanner.ryanair.dto.Airport;
 import com.seleon.flightscanner.ryanair.dto.Fare;
 import com.seleon.flightscanner.ryanair.dto.FlightData;
 import com.seleon.flightscanner.ryanair.dto.Outbound;
-import com.seleon.flightscanner.ryanair.enums.IataCode;
+import com.seleon.flightscanner.nearbyairports.IataCode;
 import com.seleon.flightscanner.utils.FilesUtil;
 import com.seleon.flightscanner.utils.JsonUtil;
 import org.junit.jupiter.api.Test;
