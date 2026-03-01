@@ -7,6 +7,7 @@ import com.seleon.flightscanner.ryanair.enums.SortBy;
 import com.seleon.flightscanner.utils.JsonUtil;
 import com.seleon.flightscanner.wizzair.dto.WizzAirResponse;
 import com.seleon.flightscanner.wizzair.dto.WizzAirFlightItem;
+import com.seleon.flightscanner.wizzair.dto.Flight;
 
 import java.io.IOException;
 import java.net.URI;
@@ -14,6 +15,8 @@ import java.net.URISyntaxException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 
@@ -196,11 +199,13 @@ public class WizzAirFareSearch {
         // isReturnFlight = false (one-way):
         String examplePayloadOneWay = "{\"arrivalStations\":null,\"departureStations\":[\"WRO\"],\"tripDuration\":\"anytime\",\"isReturnFlight\":false,\"stdPlan\":[\"2026-03\"],\"pax\":1,\"dateFilterType\":\"Flexible\",\"departureDate\":null,\"returnDate\":null}";
 
+        String payloadWeekend = "{\"arrivalStations\":null,\"departureStations\":[\"WRO\"],\"tripDuration\":\"weekend\",\"isReturnFlight\":true,\"stdPlan\":[\"2026-03\"],\"pax\":1,\"dateFilterType\":\"Flexible\",\"departureDate\":null,\"returnDate\":null}";
+
         // isReturnFlight = true (round-trip):
         String examplePayloadRoundTrip = "{\"arrivalStations\":null,\"departureStations\":[\"WRO\"],\"tripDuration\":\"anytime\",\"isReturnFlight\":true,\"stdPlan\":null,\"pax\":1,\"dateFilterType\":\"Exact\",\"departureDate\":\"2026-03-05\",\"returnDate\":\"2026-03-19\"}";
 
         // Make the API call with the payload
-        String responseBody = makeWizzAirApiCall(examplePayloadOneWay);
+        String responseBody = makeWizzAirApiCall(payloadWeekend);
 
         //System.out.println("Response: " + responseBody);
 
@@ -222,8 +227,31 @@ public class WizzAirFareSearch {
                     System.out.println("!!!!! " + item.getArrivalStation());
                 }
                 System.out.println("  Route: " + item.getDepartureStation() + " -> " + item.getArrivalStation() + " (" + arrivalCityName + ")");
-                System.out.println("  Departure: " + item.getStd());
+
+                // Parse the departure date and add day of week
+                LocalDateTime departureDateTime = LocalDateTime.parse(item.getStd(), DateTimeFormatter.ISO_DATE_TIME);
+                String dayOfWeek = departureDateTime.getDayOfWeek().toString();
+                System.out.println("  Departure: " + item.getStd() + " (" + dayOfWeek + ")");
+
                 System.out.println("  Duration: " + item.getFlightDurationMinutes() + " minutes");
+
+                // Print return flight details if available
+                if (item.getInboundFlight() != null) {
+                    Flight inbound = item.getInboundFlight();
+                    String returnDepartureCityName = "";
+                    try {
+                        returnDepartureCityName = IataCode.valueOf(inbound.getDepartureStation()).getCity();
+                    } catch (IllegalArgumentException e) {
+                        System.out.println("!!!!! " + inbound.getDepartureStation());
+                    }
+                    System.out.println("  Return Route: " + inbound.getDepartureStation() + " (" + returnDepartureCityName + ") -> " + inbound.getArrivalStation());
+
+                    LocalDateTime returnDateTime = LocalDateTime.parse(inbound.getStd(), DateTimeFormatter.ISO_DATE_TIME);
+                    String returnDayOfWeek = returnDateTime.getDayOfWeek().toString();
+                    System.out.println("  Return Departure: " + inbound.getStd() + " (" + returnDayOfWeek + ")");
+                    System.out.println("  Return Duration: " + inbound.getFlightDurationMinutes() + " minutes");
+                }
+
                 System.out.println("  Regular Price: " + item.getRegularPrice().getAmount() + " " + item.getRegularPrice().getCurrencyCode());
                 System.out.println("  WDC Price: " + item.getWdcPrice().getAmount() + " " + item.getWdcPrice().getCurrencyCode());
             }
