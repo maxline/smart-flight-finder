@@ -22,14 +22,16 @@ import java.util.List;
 
 public class RyanAirSearch {
 
-    private static final SearchMode SEARCH_MODE = SearchMode.ROUND; // SearchMode.ROUND; SearchMode.ONE_WAY;
+    private static final SearchMode SEARCH_MODE = SearchMode.ONE_WAY; // SearchMode.ROUND; SearchMode.ONE_WAY;
     private static final ArrivalCategory TYPE_OF_TRIP = ArrivalCategory.BEACH;  //BEACH: CITY_BREAK; OUTDOOR
     private static final SortBy SORT_BY = SortBy.PRICE; // SortBy.DATE_FROM, SortBy.PRICE, SortBy.DAY_OF_WEEK
-    private static final Integer PRICE_VALUE_TO = 600;
+    private static final Integer PRICE_VALUE_TO = 300;
     private static final String CURRENCY = "PLN";
 
-    private static final String DATE_FROM = "2026-04-01";
-    private static final String DATE_TO = "2026-04-30";
+    
+
+    private static final String DATE_FROM = "2026-08-10";
+    private static final String DATE_TO = "2026-08-31";
     private static final String DEPARTURE_TIME_FROM = "05:45";
     private static final String DEPARTURE_TIME_TO = "13:00";
     private static final String DAYS_OF_WEEK = "FRIDAY,SATURDAY,SUNDAY";

@@ -1,5 +1,11 @@
 The first todos in the end of the file.
 
+01.03.2025
+wizz air
+- add unit test for regression whith using LLM. try not to call api every time during test needed
+- add parametrized filtering options to run app
+- code cleanup, commented code etc.
+
 1. add friend option (friend from other city that you want flight to some place togather), filtering the flights convenient for both of dates and prices
 2. check other ryanair api (not only fares) that can help to search cheap tickets
 3. add other companies (not only ryanair) fligths (developers.skyscanner api)

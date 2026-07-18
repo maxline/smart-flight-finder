@@ -141,6 +141,30 @@ public class WizzAirFareSearch {
                 "  --data-raw '{\"arrivalStations\":null,\"departureStations\":[\"WRO\"],\"tripDuration\":\"anytime\",\"isReturnFlight\":true,\"stdPlan\":null,\"pax\":1,\"dateFilterType\":\"Exact\",\"departureDate\":\"2026-03-05\",\"returnDate\":\"2026-03-19\"}'";
 
 
+
+//        "curl 'https://be.wizzair.com/28.1.0/Api/search/SmartSearchCheapFlightsV2' \\\n" +
+//                "  -H 'accept: application/json, text/plain, */*' \\\n" +
+//                "  -H 'accept-language: en-US,en;q=0.9,ru;q=0.8' \\\n" +
+//                "  -H 'content-type: application/json' \\\n" +
+//                "  -b 'configCatBeId=oW81l4IqYgrLax_DKT1K9; bv=; ASP.NET_SessionId=x0wfspst42oqqwkmixhclxpk; RequestVerificationToken=1b70609ef6d24cb4b341aca78973c0e8' \\\n" +
+//                "  -H 'origin: https://www.wizzair.com' \\\n" +
+//                "  -H 'priority: u=1, i' \\\n" +
+//                "  -H 'referer: https://www.wizzair.com/en-gb/flights/fare-finder/wroclaw/anywhere/0/0/0/1/0/0/2026-03-07/2026-03-31?flexible=2026-04&duration=weekend' \\\n" +
+//                "  -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"' \\\n" +
+//                "  -H 'sec-ch-ua-mobile: ?0' \\\n" +
+//                "  -H 'sec-ch-ua-platform: \"macOS\"' \\\n" +
+//                "  -H 'sec-fetch-dest: empty' \\\n" +
+//                "  -H 'sec-fetch-mode: cors' \\\n" +
+//                "  -H 'sec-fetch-site: same-site' \\\n" +
+//                "  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36' \\\n" +
+//                "  -H 'x-kpsdk-cd: {\"workTime\":1772824788277,\"id\":\"3cb5d86e64f7fe3d86d950e22e7bc324\",\"answers\":[70,64],\"duration\":245.7,\"d\":6,\"st\":1772824758781,\"rst\":1772824758787}' \\\n" +
+//                "  -H 'x-kpsdk-ct: 0Puctr4UjSBCzQ1vw9dIIKtUW7NlLpokcADGWKFjOchVI86nf5xPwJPI9qGEDyrIcLJqQFpatqf3LfIWMZlSKQlnvVtnNp7P4RVNuxWTGjq01g10CxIDEqy9ApJ58Rsry29MB6SuFBrv55fB9UFKcZ753V4zZu6nRJGVYAR0mV4m' \\\n" +
+//                "  -H 'x-kpsdk-h: 01dw2KwktB0jbT2xQUeHAW77BjdP0=' \\\n" +
+//                "  -H 'x-kpsdk-v: j-1.2.260' \\\n" +
+//                "  -H 'x-requestverificationtoken: 1b70609ef6d24cb4b341aca78973c0e8' \\\n" +
+//                "  --data-raw '{\"arrivalStations\":null,\"departureStations\":[\"WRO\"],\"tripDuration\":\"weekend\",\"isReturnFlight\":true,\"stdPlan\":[\"2026-04\"],\"pax\":1,\"dateFilterType\":\"Flexible\",\"departureDate\":null,\"returnDate\":null}'"
+//
+//
         return url;
     }
 
@@ -159,7 +183,7 @@ public class WizzAirFareSearch {
     }
 
     private static String makeWizzAirApiCall(String jsonPayload) throws URISyntaxException, IOException, InterruptedException {
-        String url = "https://be.wizzair.com/28.0.0/Api/search/SmartSearchCheapFlightsV2";
+        String url = "https://be.wizzair.com/28.1.0/Api/search/SmartSearchCheapFlightsV2";
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(new URI(url))
@@ -207,55 +231,12 @@ public class WizzAirFareSearch {
         // Make the API call with the payload
         String responseBody = makeWizzAirApiCall(payloadWeekend);
 
-        //System.out.println("Response: " + responseBody);
+        System.out.println("Response: " + responseBody);
 
         // Convert the response body to DTO classes
         WizzAirResponse wizzAirResponse = JsonUtil.jsonToObject(responseBody, WizzAirResponse.class);
 
-        // Process the response
-        if (wizzAirResponse != null && wizzAirResponse.getItems() != null) {
-            System.out.println("\nFound " + wizzAirResponse.getItems().size() + " flights");
-
-            // Example: Print first few flights
-            for (int i = 0; i < wizzAirResponse.getItems().size(); i++) {
-                WizzAirFlightItem item = wizzAirResponse.getItems().get(i);
-                System.out.println("\nFlight " + (i + 1) + ":");
-                String arrivalCityName = "";
-                try {
-                    arrivalCityName = IataCode.valueOf(item.getArrivalStation()).getCity();
-                } catch (IllegalArgumentException e) {
-                    System.out.println("!!!!! " + item.getArrivalStation());
-                }
-                System.out.println("  Route: " + item.getDepartureStation() + " -> " + item.getArrivalStation() + " (" + arrivalCityName + ")");
-
-                // Parse the departure date and add day of week
-                LocalDateTime departureDateTime = LocalDateTime.parse(item.getStd(), DateTimeFormatter.ISO_DATE_TIME);
-                String dayOfWeek = departureDateTime.getDayOfWeek().toString();
-                System.out.println("  Departure: " + item.getStd() + " (" + dayOfWeek + ")");
-
-                System.out.println("  Duration: " + item.getFlightDurationMinutes() + " minutes");
-
-                // Print return flight details if available
-                if (item.getInboundFlight() != null) {
-                    Flight inbound = item.getInboundFlight();
-                    String returnDepartureCityName = "";
-                    try {
-                        returnDepartureCityName = IataCode.valueOf(inbound.getDepartureStation()).getCity();
-                    } catch (IllegalArgumentException e) {
-                        System.out.println("!!!!! " + inbound.getDepartureStation());
-                    }
-                    System.out.println("  Return Route: " + inbound.getDepartureStation() + " (" + returnDepartureCityName + ") -> " + inbound.getArrivalStation());
-
-                    LocalDateTime returnDateTime = LocalDateTime.parse(inbound.getStd(), DateTimeFormatter.ISO_DATE_TIME);
-                    String returnDayOfWeek = returnDateTime.getDayOfWeek().toString();
-                    System.out.println("  Return Departure: " + inbound.getStd() + " (" + returnDayOfWeek + ")");
-                    System.out.println("  Return Duration: " + inbound.getFlightDurationMinutes() + " minutes");
-                }
-
-                System.out.println("  Regular Price: " + item.getRegularPrice().getAmount() + " " + item.getRegularPrice().getCurrencyCode());
-                System.out.println("  WDC Price: " + item.getWdcPrice().getAmount() + " " + item.getWdcPrice().getCurrencyCode());
-            }
-        }
+        processTheResponse(wizzAirResponse);
 
 //        if (response != null) {
 //            System.out.println("Date from: " + DATE_FROM + ", Date To: " + DATE_TO);
@@ -269,6 +250,55 @@ public class WizzAirFareSearch {
 //            printFoundFlights(response.body(), airportFrom);
 //
 //        }
+    }
+
+    private static void processTheResponse(WizzAirResponse wizzAirResponse) {
+        // Process the response
+        if (wizzAirResponse != null && wizzAirResponse.getItems() != null) {
+            System.out.println("\n✈️  Found " + wizzAirResponse.getItems().size() + " flights");
+
+            // Example: Print first few flights
+            for (int i = 0; i < wizzAirResponse.getItems().size(); i++) {
+                WizzAirFlightItem item = wizzAirResponse.getItems().get(i);
+                System.out.println("\n" + "=".repeat(60));
+                System.out.println("🛫 Flight #" + (i + 1));
+                System.out.println("=".repeat(60));
+                String arrivalCityName = "";
+                try {
+                    arrivalCityName = IataCode.valueOf(item.getArrivalStation()).getCity();
+                } catch (IllegalArgumentException e) {
+                    System.out.println("⚠️  Unknown airport: " + item.getArrivalStation());
+                }
+                System.out.println("🗺️  Route: " + item.getDepartureStation() + " ➡️  " + item.getArrivalStation() + " (" + arrivalCityName + ")");
+
+                // Parse the departure date and add day of week
+                LocalDateTime departureDateTime = LocalDateTime.parse(item.getStd(), DateTimeFormatter.ISO_DATE_TIME);
+                String dayOfWeek = departureDateTime.getDayOfWeek().toString();
+                System.out.println("📅 Departure: " + item.getStd() + " (" + dayOfWeek + ")");
+
+                System.out.println("⏱️  Duration: " + item.getFlightDurationMinutes() + " minutes");
+
+                // Print return flight details if available
+                if (item.getInboundFlight() != null) {
+                    Flight inbound = item.getInboundFlight();
+                    String returnDepartureCityName = "";
+                    try {
+                        returnDepartureCityName = IataCode.valueOf(inbound.getDepartureStation()).getCity();
+                    } catch (IllegalArgumentException e) {
+                        System.out.println("⚠️  Unknown airport: " + inbound.getDepartureStation());
+                    }
+                    System.out.println("🔄 Return Route: " + inbound.getDepartureStation() + " (" + returnDepartureCityName + ") ➡️  " + inbound.getArrivalStation());
+
+                    LocalDateTime returnDateTime = LocalDateTime.parse(inbound.getStd(), DateTimeFormatter.ISO_DATE_TIME);
+                    String returnDayOfWeek = returnDateTime.getDayOfWeek().toString();
+                    System.out.println("📅 Return Departure: " + inbound.getStd() + " (" + returnDayOfWeek + ")");
+                    System.out.println("⏱️  Return Duration: " + inbound.getFlightDurationMinutes() + " minutes");
+                }
+
+                System.out.println("💰 Regular Price: " + item.getRegularPrice().getAmount() + " " + item.getRegularPrice().getCurrencyCode());
+                System.out.println("💎 WDC Price: " + item.getWdcPrice().getAmount() + " " + item.getWdcPrice().getCurrencyCode());
+            }
+        }
     }
 
 //    private static void printFoundFlights(String flightDataJson, IataCode airportFrom) {

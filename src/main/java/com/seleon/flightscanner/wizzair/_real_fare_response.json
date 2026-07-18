@@ -1,0 +1,1534 @@
+{
+  "items": [
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "AGP",
+        "arrivalStationMAC": null,
+        "std": "2026-03-09T06:15:00",
+        "regularOriginalPrice": {
+          "amount": 199.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 199.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 155.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 155.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 139.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 99.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 230
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "AGP",
+      "arrivalStationMAC": null,
+      "std": "2026-03-09T06:15:00",
+      "regularOriginalPrice": {
+        "amount": 199.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 199.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 155.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 155.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 139.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 99.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 230
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "BBU",
+        "arrivalStationMAC": null,
+        "std": "2026-03-10T13:40:00",
+        "regularOriginalPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 69.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 69.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 110
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "BBU",
+      "arrivalStationMAC": null,
+      "std": "2026-03-10T13:40:00",
+      "regularOriginalPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 69.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 69.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 110
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "BCN",
+        "arrivalStationMAC": null,
+        "std": "2026-03-24T06:15:00",
+        "regularOriginalPrice": {
+          "amount": 179.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 179.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 135.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 135.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 159.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 119.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 170
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "BCN",
+      "arrivalStationMAC": null,
+      "std": "2026-03-24T06:15:00",
+      "regularOriginalPrice": {
+        "amount": 179.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 179.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 135.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 135.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 159.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 119.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 170
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "BRI",
+        "arrivalStationMAC": null,
+        "std": "2026-03-29T06:00:00",
+        "regularOriginalPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 125
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "BRI",
+      "arrivalStationMAC": null,
+      "std": "2026-03-29T06:00:00",
+      "regularOriginalPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 125
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "BSL",
+        "arrivalStationMAC": null,
+        "std": "2026-03-15T06:15:00",
+        "regularOriginalPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 69.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 69.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 69.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 95
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "BSL",
+      "arrivalStationMAC": null,
+      "std": "2026-03-15T06:15:00",
+      "regularOriginalPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 69.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 69.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 69.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 95
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "BUD",
+        "arrivalStationMAC": null,
+        "std": "2026-03-15T13:00:00",
+        "regularOriginalPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 65
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "BUD",
+      "arrivalStationMAC": null,
+      "std": "2026-03-15T13:00:00",
+      "regularOriginalPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 65
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "CTA",
+        "arrivalStationMAC": null,
+        "std": "2026-03-30T19:45:00",
+        "regularOriginalPrice": {
+          "amount": 159.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 159.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 115.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 115.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 159.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 119.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 155
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "CTA",
+      "arrivalStationMAC": null,
+      "std": "2026-03-30T19:45:00",
+      "regularOriginalPrice": {
+        "amount": 159.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 159.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 115.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 115.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 159.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 119.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 155
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "DTM",
+        "arrivalStationMAC": null,
+        "std": "2026-03-29T11:20:00",
+        "regularOriginalPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 85
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "DTM",
+      "arrivalStationMAC": null,
+      "std": "2026-03-29T11:20:00",
+      "regularOriginalPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 85
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "EIN",
+        "arrivalStationMAC": null,
+        "std": "2026-03-30T13:55:00",
+        "regularOriginalPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 89.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 100
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "EIN",
+      "arrivalStationMAC": null,
+      "std": "2026-03-30T13:55:00",
+      "regularOriginalPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 89.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 100
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "KUT",
+        "arrivalStationMAC": null,
+        "std": "2026-03-22T16:15:00",
+        "regularOriginalPrice": {
+          "amount": 219.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 219.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 175.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 175.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 109.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 109.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 210
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "KUT",
+      "arrivalStationMAC": null,
+      "std": "2026-03-22T16:15:00",
+      "regularOriginalPrice": {
+        "amount": 219.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 219.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 175.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 175.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 109.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 109.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 210
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "LCA",
+        "arrivalStationMAC": null,
+        "std": "2026-03-29T09:00:00",
+        "regularOriginalPrice": {
+          "amount": 509.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 509.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 465.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 465.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 139.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 200
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "LCA",
+      "arrivalStationMAC": null,
+      "std": "2026-03-29T09:00:00",
+      "regularOriginalPrice": {
+        "amount": 509.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 509.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 465.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 465.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 139.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 200
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "LGW",
+        "arrivalStationMAC": null,
+        "std": "2026-03-13T10:35:00",
+        "regularOriginalPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 109.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 109.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 109.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 145
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "LGW",
+      "arrivalStationMAC": null,
+      "std": "2026-03-13T10:35:00",
+      "regularOriginalPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 109.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 109.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 109.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 145
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "LPA",
+        "arrivalStationMAC": null,
+        "std": "2026-03-23T13:45:00",
+        "regularOriginalPrice": {
+          "amount": 219.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 219.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 175.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 175.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 229.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 179.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 325
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "LPA",
+      "arrivalStationMAC": null,
+      "std": "2026-03-23T13:45:00",
+      "regularOriginalPrice": {
+        "amount": 219.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 219.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 175.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 175.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 229.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 179.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 325
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "LTN",
+        "arrivalStationMAC": null,
+        "std": "2026-03-14T19:45:00",
+        "regularOriginalPrice": {
+          "amount": 79.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 79.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 79.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 79.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 79.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 79.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 140
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "LTN",
+      "arrivalStationMAC": null,
+      "std": "2026-03-14T19:45:00",
+      "regularOriginalPrice": {
+        "amount": 79.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 79.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 79.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 79.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 79.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 79.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 140
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "MAD",
+        "arrivalStationMAC": null,
+        "std": "2026-03-19T05:30:00",
+        "regularOriginalPrice": {
+          "amount": 139.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 139.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 95.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 95.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 139.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 99.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 190
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "MAD",
+      "arrivalStationMAC": null,
+      "std": "2026-03-19T05:30:00",
+      "regularOriginalPrice": {
+        "amount": 139.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 139.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 95.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 95.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 139.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 99.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 190
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "NCE",
+        "arrivalStationMAC": null,
+        "std": "2026-03-10T18:35:00",
+        "regularOriginalPrice": {
+          "amount": 139.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 139.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 95.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 95.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 89.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 120
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "NCE",
+      "arrivalStationMAC": null,
+      "std": "2026-03-10T18:35:00",
+      "regularOriginalPrice": {
+        "amount": 139.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 139.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 95.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 95.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 89.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 120
+    },
+    {
+      "isReturnFlight": false,
+      "outboundFlight": {
+        "currencyCode": "PLN",
+        "departureStation": "WRO",
+        "arrivalStation": "RMO",
+        "arrivalStationMAC": null,
+        "std": "2026-03-05T14:15:00",
+        "regularOriginalPrice": {
+          "amount": 129.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "regularPrice": {
+          "amount": 129.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcOriginalPrice": {
+          "amount": 85.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPrice": {
+          "amount": 85.00,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "pastPrice": {
+          "amount": 69.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "wdcPastPrice": {
+          "amount": 69.0000,
+          "currencyCode": "PLN",
+          "exchangedAmount": null,
+          "exchangedCurrencyCode": null
+        },
+        "flightDurationMinutes": 110
+      },
+      "inboundFlight": null,
+      "currencyCode": "PLN",
+      "departureStation": "WRO",
+      "arrivalStation": "RMO",
+      "arrivalStationMAC": null,
+      "std": "2026-03-05T14:15:00",
+      "regularOriginalPrice": {
+        "amount": 129.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "regularPrice": {
+        "amount": 129.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcOriginalPrice": {
+        "amount": 85.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPrice": {
+        "amount": 85.00,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "pastPrice": {
+        "amount": 69.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "wdcPastPrice": {
+        "amount": 69.0000,
+        "currencyCode": "PLN",
+        "exchangedAmount": null,
+        "exchangedCurrencyCode": null
+      },
+      "flightDurationMinutes": 110
+    }
+  ]
+}
