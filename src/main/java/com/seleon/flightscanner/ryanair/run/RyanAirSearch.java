@@ -27,6 +27,7 @@ public class RyanAirSearch {
     private static final SortBy SORT_BY = SortBy.PRICE; // SortBy.DATE_FROM, SortBy.PRICE, SortBy.DAY_OF_WEEK
     private static final Integer PRICE_VALUE_TO = 300;
     private static final String CURRENCY = "PLN";
+    private static final HttpClient HTTP_CLIENT = HttpClient.newBuilder().build();
 
     
 
@@ -112,10 +113,7 @@ public class RyanAirSearch {
                 .GET()
                 .build();
 
-        // todo warning httpclient used without try with resources statement
-        HttpResponse<String> response = HttpClient.newBuilder()
-                .build()
-                .send(request, HttpResponse.BodyHandlers.ofString());
+        HttpResponse<String> response = HTTP_CLIENT.send(request, HttpResponse.BodyHandlers.ofString());
 
         if (response != null) {
             System.out.println("Date from: " + DATE_FROM + ", Date To: " + DATE_TO);
