@@ -30,8 +30,8 @@ public class RyanAirSearch {
 
     
 
-    private static final String DATE_FROM = "2026-08-10";
-    private static final String DATE_TO = "2026-08-31";
+    private static final String DATE_FROM = "2026-12-01";
+    private static final String DATE_TO = "2026-12-31";
     private static final String DEPARTURE_TIME_FROM = "05:45";
     private static final String DEPARTURE_TIME_TO = "13:00";
     private static final String DAYS_OF_WEEK = "FRIDAY,SATURDAY,SUNDAY";
@@ -41,7 +41,7 @@ public class RyanAirSearch {
     private static final String INBOUND_DEPARTURE_TIME_FROM = "16:00";
     private static final String INBOUND_DEPARTURE_TIME_TO = "23:59";
 
-    private static String urlCreator(SearchParameters searchParameters) {
+    static String urlCreator(SearchParameters searchParameters) {
         return String.join("",
                 "https://www.ryanair.com/api/farfnd/v4/",
                 searchParameters.getSearchMode().getValue(),
